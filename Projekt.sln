@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{7613FB23-438F-4FEC-B0AB-1127388A0DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "Forms\Forms.csproj", "{579AF1D8-8E31-41EF-A20B-6D69BE1253A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{5D265595-C5E6-4813-884F-C957B8A1B7F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7613FB23-438F-4FEC-B0AB-1127388A0DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7613FB23-438F-4FEC-B0AB-1127388A0DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7613FB23-438F-4FEC-B0AB-1127388A0DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7613FB23-438F-4FEC-B0AB-1127388A0DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579AF1D8-8E31-41EF-A20B-6D69BE1253A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579AF1D8-8E31-41EF-A20B-6D69BE1253A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579AF1D8-8E31-41EF-A20B-6D69BE1253A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579AF1D8-8E31-41EF-A20B-6D69BE1253A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D265595-C5E6-4813-884F-C957B8A1B7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D265595-C5E6-4813-884F-C957B8A1B7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D265595-C5E6-4813-884F-C957B8A1B7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D265595-C5E6-4813-884F-C957B8A1B7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6823C3F7-F5C0-4109-ABAA-14A97E883459}
+	EndGlobalSection
+EndGlobal

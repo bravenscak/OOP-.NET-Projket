@@ -1,0 +1,86 @@
+﻿<Window x:Class="WpfApp.TeamDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="TeamDetailsWindow" Height="400" Width="640">
+    <DockPanel>
+        <StackPanel VerticalAlignment="Center" DockPanel.Dock="Top" Margin="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblCountry" HorizontalAlignment="Right" Content="Country:" FontSize="16" />
+                <Label x:Name="lblCountryValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblCode" HorizontalAlignment="Right" Content="FIFA Code:" FontSize="16" />
+                <Label x:Name="lblCodeValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblPlayedMatches" HorizontalAlignment="Right"  Content="Played matches:" FontSize="16" />
+                <Label x:Name="lblPlayedMatchesValue"  Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblWins" HorizontalAlignment="Right"  Content="Wins:" FontSize="16" />
+                <Label x:Name="lblWinsValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblLoses" HorizontalAlignment="Right" Content="Loses:" FontSize="16" />
+                <Label x:Name="lblLosesValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblDraws" HorizontalAlignment="Right"  Content="Draws:" FontSize="16" />
+                <Label x:Name="lblDrawsValue"  Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblGoals" HorizontalAlignment="Right" Content="Goals scored:" FontSize="16" />
+                <Label x:Name="lblGoalsValue"  Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblConsededGoals" HorizontalAlignment="Right" Content="Goals conceded:" FontSize="16" />
+                <Label x:Name="lblConsededGoalsValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblGoalDifference" HorizontalAlignment="Right" Content="Goal difference:" FontSize="16" />
+                <Label x:Name="lblGoalDifferenceValue" Grid.Column="1" Content="" FontSize="16"/>
+            </Grid>
+        </StackPanel>
+        <Grid/>
+    </DockPanel>
+</Window>
