@@ -72,39 +72,6 @@ namespace ClassLibrary
             }
         }
 
-        private static readonly Dictionary<string, string> LanguageComboBoxMap = new()
-        {
-            { "Hrvatski", "Hrvatski" },
-            { "English", "Croatian" }
-        };
-
-        public static AppSettings SetLanguageByComboBoxSelection(AppSettings settings, string selectedLanguage)
-        {
-            if (LanguageComboBoxMap.TryGetValue(selectedLanguage, out var language))
-            {
-                settings.Language = language;
-            }
-            else
-            {
-                throw new ArgumentException($"Invalid language selection: {selectedLanguage}", nameof(selectedLanguage));
-            }
-
-            return settings;
-        }
-
-        public static string GetComboBoxSelectionFromSettings(AppSettings settings)
-        {
-            foreach (var pair in LanguageComboBoxMap)
-            {
-                if (pair.Value == settings.Language)
-                {
-                    return pair.Key;
-                }
-            }
-
-            throw new InvalidOperationException($"Invalid language setting: {settings.Language}");
-        }
-
         public static string ParseStringValue(string line)
         {
             var parts = line.Split(DELIMITER);

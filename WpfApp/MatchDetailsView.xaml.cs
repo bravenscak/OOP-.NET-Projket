@@ -347,6 +347,7 @@ namespace WpfApp
 
         private void SettingsWindow_SettingsApplied(object sender, EventArgs e)
         {
+            LoadSettingsAsync();
             LoadFavoriteTeam();
         }
     }

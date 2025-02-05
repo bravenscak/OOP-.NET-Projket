@@ -37,7 +37,7 @@ namespace ClassLibrary.Repositories
 
         public async Task<FavouriteSettings> GetSettingsAsync()
         {
-            await CreateSettingsAsync(); // if they don't exist
+            await CreateSettingsAsync(); 
 
             var team = await File.ReadAllTextAsync(SETTINGS_TEAM_FILE_PATH);
             var playersLine = await File.ReadAllTextAsync(SETTINGS_PLAYERS_FILE_PATH);
@@ -83,7 +83,7 @@ namespace ClassLibrary.Repositories
 
         public async Task UpdateSettingsAsync(FavouriteSettings appSettings)
         {
-            await CreateSettingsAsync(); // if they don't exist
+            await CreateSettingsAsync(); 
 
             var playersString = string.Join(Environment.NewLine, appSettings.FavouritePlayers.Select(p => p.Name));
             var teamString = appSettings.FavouriteTeam?.Country ?? DEFAULT_TEAM;

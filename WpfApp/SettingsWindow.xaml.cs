@@ -70,7 +70,7 @@ namespace WpfApp
             try
             {
                 currentSettings.GenderCategory = cbTournament.SelectedIndex == 0 ? "Men" : "Women";
-                currentSettings.Language = cbLanguage.SelectedIndex == 0 ? "English" : "Croatian";
+                currentSettings.Language = cbLanguage.SelectedIndex == 0 ? "English" : "Hrvatski";
                 currentSettings.Resolution = cbResolution.SelectedValue.ToString();
                 string resolution = cbResolution.SelectedValue.ToString();
 
