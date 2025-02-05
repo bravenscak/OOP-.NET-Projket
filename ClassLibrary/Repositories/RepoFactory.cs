@@ -19,7 +19,7 @@ namespace ClassLibrary.Repositories
             var settings = await settingsRepo.GetSettingsAsync();
             var repoType = settings.LoadingDataBy;
 
-            if (repoType == "File")
+            if (repoType == "Json")
             {
                 return new JsonDataRepo(settings.GenderCategory);
             }
